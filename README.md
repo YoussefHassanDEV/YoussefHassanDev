@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Software Engineer</h3>
 
 <p align="center">
-  <img src="https://imgs.search.brave.com/JOdRDA2MfpN3UN0lYBLC-yaVsgltfBirSMddr2p9XYE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXN0LmdpdGh1Yi5jb20vbGlhbnBlcnNvbi81ZjBmNTI2MDRiMDNhZDgwYzgyZGI3OTBjNDc0OTkzYy9yYXcvODhmMjBjOWQ3NDlkNzU2YmU2M2YyMmIwOWYzYzRhYzU3MGJjNTEwMS9wcm9ncmFtbWluZy5naWY.gif" alt="Coding" width="600" />
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding" width="600" />
 </p>
 
 <p align="left">
@@ -112,6 +112,12 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=youssefhassandev&show_icons=true&locale=en&theme=radical" alt="youssefhassandev" />
 </p>
+
+<h3 align="left">⚡ Recent Activity:</h3>
+<p align="left">
+  <img src="https://activity-graph.herokuapp.com/graph?username=youssefhassandev&theme=react-dark" alt="Recent Activity" />
+</p>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=youssefhassandev&theme=radical" alt="youssefhassandev" />
+  <img src="https://media.giphy.com/media/26u4rI3a6d3z10P3e/giphy.gif" alt="Cheers" width="300" />
 </p>
