@@ -112,12 +112,10 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=youssefhassandev&show_icons=true&locale=en&theme=radical" alt="youssefhassandev" />
 </p>
-
-<h3 align="left">⚡ Recent Activity:</h3>
-<p align="left">
-  <img src="https://activity-graph.herokuapp.com/graph?username=youssefhassandev&theme=react-dark" alt="Recent Activity" />
-</p>
-
 <p align="center">
-  <img src="https://media.giphy.com/media/26u4rI3a6d3z10P3e/giphy.gif" alt="Cheers" width="300" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=youssefhassandev&theme=radical" alt="youssefhassandev" />
 </p>
+
+---
+
+<p align="center">This README was generated with ❤️ by <a href="https://github.com/YoussefHassanDEV">Youssef Hassan</a></p>
