@@ -24,7 +24,7 @@
 <h3 align="center">🌱 I'm currently learning <span style="color: #FF5733;">MERN Stack & CyberSecurity</span></h3>
 
 - 👨‍💻 All of my projects are available at [My GitHub](https://github.com/YoussefHassanDEV)
-- 💬 Ask me about **React.js, Node.js**
+- 💬 Ask me about **C++,Java,Spring,Springboot,DSA**
 - 📫 How to reach me: **devyoussefhassan@gmail.com**
 - 📄 Know about my experiences: [My Resume](https://drive.google.com/file/d/1FqbNQIbhvFNqDz1k6_CNsGNHgy8iIOgm/view?usp=sharing)
 
