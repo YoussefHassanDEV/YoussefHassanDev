@@ -27,9 +27,9 @@
 
 - 🏆 **ECPC Finalist** (Egyptian Collegiate Programming Contest)  
 - 🌱 Currently diving deep into **Data Structures & Algorithms**, and backend development using **Java (Spring & Spring Boot)**  
-- 🎓 Completed courses from **Udemy’s Telusko** and **Mostafa Saad (Getskilled)**—covering C++, SQL, MongoDB, Node.js, Express, React, Next.js, and more  
+- 🎓 Completed courses from **Udemy’s Telusko** and **Mostafa Saad (Getskilled)**—covering C++, SQL, MongoDB, Node.js, Express, and more  
 - 👨‍💻 All of my projects are available at [GitHub](https://github.com/YoussefHassanDEV)  
-- 💬 Ask me about: **C++, Java, Spring, Spring Boot, DSA, SQL, MongoDB**  
+- 💬 Ask me about: **C++, Java, Spring, Spring Boot, PostgreSQL, MongoDB, DSA**  
 - 📫 Reach me at: **devyoussefhassan@gmail.com**  
 - 📄 View my resume: [Click Here](https://drive.google.com/file/d/1FqbNQIbhvFNqDz1k6_CNsGNHgy8iIOgm/view?usp=sharing)
 
@@ -54,22 +54,22 @@
   <!-- Core programming -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40" alt="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40" height="40" alt="TypeScript" />
 
-  
   <!-- Backend & APIs -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring Boot" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring" />
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="40" height="40" alt="Spring Boot" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" alt="Node.js" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40" height="40" alt="Express" />
 
   <!-- Databases -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" alt="MongoDB" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40" alt="PostgreSQL" />
   <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" height="40" alt="SQL Server" />
 
   <!-- Tools & IDEs -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40" alt="GitHub" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="40" height="40" alt="VS Code" />
+  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.png" width="40" height="40" alt="IntelliJ IDEA Community Edition" />
 
   <!-- Platforms -->
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
