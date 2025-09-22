@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=youssefhassandev&theme=onedark" alt="Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=youssefhassandev&theme=onedark&no-bg=true&margin-w=15" alt="Trophies" />
   </a>
 </p>
 
@@ -25,104 +25,81 @@
 
 ### 🧑‍💻 About Me
 
-- 🏆 **ECPC Finalist** (Egyptian Collegiate Programming Contest 2022)
-- 🌱 Currently deepening knowledge in **Data Structures, Algorithms, and Backend Development** using **Java (Spring Boot & Spring Security)**
-- 🎓 Completed multiple courses including Udemy’s **Telusko**, **Mostafa Saad (Getskilled)** on C++, SQL, MongoDB, Node.js, Express, and Java backend technologies
-- 👨‍💻 All of my projects are publicly available on [GitHub](https://github.com/YoussefHassanDEV)
-- 💬 Feel free to ask me about: **Java, Spring Boot, PostgreSQL, MongoDB, Docker, JWT, WebSocket, DSA, C++**
-- 📫 Reach me at: devyoussefhassan@gmail.com
-- 📄 View my CV: [Download PDF](https://drive.google.com/file/d/1_IoU7rDYxRA3Fos5J_odH0QCjFI16M74/view?usp=sharing)
+- 🏆 **ECPC Finalist (2022)** — Egyptian Collegiate Programming Contest  
+- 🌱 Deepening expertise in **Data Structures**, **Algorithms**, and Java Backend Development with **Spring Boot & Security**  
+- 🎓 Completed courses from Udemy’s **Telusko** and **Mostafa Saad (Getskilled)** in C++, SQL, MongoDB, Node.js, Express, and Java Back-End  
+- 👨‍💻 Check out my projects on [GitHub](https://github.com/YoussefHassanDEV)  
+- 📫 Reach me: <a href="mailto:devyoussefhassan@gmail.com">devyoussefhassan@gmail.com</a>  
+- 📄 [View My CV](https://drive.google.com/file/d/1_IoU7rDYxRA3Fos5J_odH0QCjFI16M74/view?usp=sharing)
 
 ---
 
-### 🔗 Connect with Me
+### 🔧 Tech Stack
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/youssef-hassan-60a85a248/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
-  </a> &nbsp;&nbsp;
-  <a href="https://codeforces.com/profile/youssefhassan_" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="Codeforces" height="30" width="40" />
-  </a> &nbsp;&nbsp;
-  <a href="https://github.com/YoussefHassanDEV" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" height="30" width="40" />
-  </a>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" title="Java" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring" title="Spring" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/springboot/springboot-original.svg" alt="Spring Boot" title="Spring Boot" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" title="MongoDB" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" title="GitHub" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" title="Docker" width="40" height="40" />&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="40" height="40" />
 </p>
 
 ---
 
-### 🛠️ Languages & Tools
+### 📂 Projects Highlight
 
-<p align="center">
-  <!-- Core Programming -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="40" height="40" alt="C++" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="40" height="40" alt="Java" />
-  
-  <!-- Backend & Frameworks -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="40" height="40" alt="Spring" />
-  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" width="40" height="40" alt="Spring Boot" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40" height="40" alt="Node.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40" height="40" alt="Express" />
-  
-  <!-- Databases -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" width="40" height="40" alt="MongoDB" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40" height="40" alt="PostgreSQL" />
-  <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" width="40" height="40" alt="SQL Server" />
-  
-  <!-- Tools & IDEs -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="40" height="40" alt="GitHub" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg" width="40" height="40" alt="VS Code" />
-  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.png" width="40" height="40" alt="IntelliJ IDEA" />
-  
-  <!-- Platforms -->
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40" height="40" alt="Linux" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/windows8/windows8-original.svg" width="40" height="40" alt="Windows" />
-</p>
+<details open>
+<summary><b>Social Network Backend – Scalable and Secure</b></summary>
+<ul>
+<li>JWT authentication with token blacklisting using Redis</li>
+<li>Real-time messaging with WebSocket and STOMP protocol</li>
+<li>Smart feed with personalized ranking and dynamic pagination</li>
+<li>Handled stress tests with 1M users and optimized performance by 79%</li>
+<li><b>Stack:</b> Java 17, Spring Boot, Redis, JWT, WebSocket, Cloudinary</li>
+<li><a href="https://github.com/YoussefHassanDEV/socialnetwork">GitHub Repo</a></li>
+</ul>
+</details>
 
----
+<details>
+<summary><b>School System Management Backend</b></summary>
+<ul>
+<li>Secure REST API development with role-based access control</li>
+<li>Dynamic reporting dashboards and scheduling module</li>
+<li><b>Stack:</b> Spring Boot, PostgreSQL, Hibernate</li>
+<li><a href="https://github.com/YoussefHassanDEV/SchoolSystemmanagment">GitHub Repo</a></li>
+</ul>
+</details>
 
-### 📂 Key Projects
-
-#### Social Network Backend - Production-Ready Platform
-- Implemented stateless JWT authentication with Redis-powered token blacklist
-- Built real-time messaging using WebSocket, STOMP, and Redis PubSub
-- Integrated Cloudinary for media uploads and content management
-- Designed a Smart Feed with personalized ranking, dynamic filters, and cursor-based pagination
-- Developed moderation system with reporting, admin review queues, and content blurring
-- Stress-tested with 1M users, 200K posts, 100K reports; performance improved by 79% after Redis caching and database indexing  
-- Tech Stack: Java 17, Spring Boot, Redis, JWT, WebSocket, STOMP, Cloudinary  
-- [GitHub Repository](https://github.com/YoussefHassanDEV/socialnetwork)
-
-#### School System Management – Robust Backend Solution
-- Built secure authentication and REST APIs
-- Implemented dynamic reporting dashboards and advanced scheduling
-- Ensured data security with encryption and access control  
-- Tech Stack: Spring Boot, PostgreSQL, Hibernate  
-- [GitHub Repository](https://github.com/YoussefHassanDEV/SchoolSystemmanagment)
-
-#### E-book Project – Interactive Web Application
-- Developed a responsive web app for browsing and reading e-books
-- Built engaging UI with animations
-- Integrated RESTful backend using Node.js and Express.js  
-- Tech Stack: React, Node.js, Express.js  
-- [GitHub Repository](https://github.com/YoussefHassanDEV/Ebook)
+<details>
+<summary><b>E-book Web Application</b></summary>
+<ul>
+<li>Interactive UI with animations and responsive design</li>
+<li>RESTful backend API using Node.js and Express.js</li>
+<li><b>Stack:</b> React, Node.js, Express.js</li>
+<li><a href="https://github.com/YoussefHassanDEV/Ebook">GitHub Repo</a></li>
+</ul>
+</details>
 
 ---
 
 ### 🏅 Achievements & Certifications
 
-- Finalist of Egyptian Collegiate Programming Contest (ECPC) 2022
-- Honorable Mention, Kafr Elsheikh University Collegiate Programming Contest (ICPC)
-- Certificate: Principles of Writing Clean Code
-- Certificate: Mastering 4 Critical Skills Using C (Mostafa Saad 2023)
-- Certificate: Java Spring Framework 6, Spring Boot 3, Spring AI (Telusko 2025)
+- 🏆 Finalist, ECPC (Egyptian Collegiate Programming Contest) 2022  
+- 🎖 Honorable Mention in ICPC, Kafr Elsheikh University  
+- 📜 Principles of Writing Clean Code  
+- 📜 Mastering Critical Skills Using C — Mostafa Saad 2023  
+- 📜 Java Spring Framework 6, Spring Boot 3, Spring AI — Telusko 2025  
+- 📜 **New Certificate: [Add course name here]**
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=youssefhassandev&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=youssefhassandev&show_icons=true&locale=en&layout=compact&theme=radical" alt="Top Languages" />
 </p>
 
 <p align="center">
@@ -135,4 +112,4 @@
 
 ---
 
-<p align="center">This README was generated with ❤️ by <a href="https://github.com/YoussefHassanDEV">Youssef Hassan</a></p>
+<p align="center">This README was crafted with ❤️ by <a href="https://github.com/YoussefHassanDEV">Youssef Hassan</a></p>
