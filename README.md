@@ -31,7 +31,7 @@
 - 👨‍💻 All of my projects are available at [GitHub](https://github.com/YoussefHassanDEV)  
 - 💬 Ask me about: **C++, Java, Spring, Spring Boot, PostgreSQL, MongoDB, DSA**  
 - 📫 Reach me at: **devyoussefhassan@gmail.com**  
-- 📄 View my CV: [Click Here]([https://drive.google.com/file/d/1FqbNQIbhvFNqDz1k6_CNsGNHgy8iIOgm/view?usp=sharing](https://drive.google.com/file/d/1_IoU7rDYxRA3Fos5J_odH0QCjFI16M74/view?usp=sharing))
+- 📄 View my CV: [Click Here](https://drive.google.com/file/d/1FqbNQIbhvFNqDz1k6_CNsGNHgy8iIOgm/view?usp=sharing](https://drive.google.com/file/d/1_IoU7rDYxRA3Fos5J_odH0QCjFI16M74/view?usp=sharing))
 
 ---
 
