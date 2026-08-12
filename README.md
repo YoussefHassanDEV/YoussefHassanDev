@@ -171,10 +171,10 @@ Action plays my move and updates this board in about a minute.
 |  |  |  |
 |:--:|:--:|:--:|
 | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-0&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-1&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-2&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) |
-| [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-3&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-4&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-5&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) |
+| ❌ | ⭕ | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-5&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) |
 | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-6&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-7&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) | [⬜](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=ttt-move-8&body=Just+press+%22Create%22+%E2%80%94+the+bot+replies+in+about+a+minute.) |
 
-Click any square to play. You are ❌.
+Your move — you are ❌.
 
 🏆 You **0** · 🤖 Me **0** · 🤝 Draws **0**
 
