@@ -2,6 +2,12 @@
 <h3 align="center">IAM Consultant @ Smpl ID · SailPoint IdentityIQ Certified · Java / Spring Boot Engineer</h3>
 
 <p align="center">
+  <a href="https://github.com/YoussefHassanDEV">
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&pause=1000&color=6E9FEF&center=true&vCenter=true&width=680&lines=IAM+Consultant+%40+Smpl+ID;SailPoint+IdentityIQ+Certified;Java+%2F+Spring+Boot+%2B+React+engineer;I+build+and+run+production+systems;ECPC+Finalist+2022" alt="What I do" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="Coding" width="600" />
 </p>
 
@@ -62,6 +68,10 @@ I work where identity governance meets real software engineering.
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" title="Tailwind CSS" width="40" height="40" />&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" title="Linux" width="40" height="40" />&nbsp;
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" title="Git" width="40" height="40" />
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,react,js,postgres,mongodb,redis,docker,nginx,tailwind,linux,git,github,maven,vite&theme=dark&perline=8" alt="Skill icons" />
 </p>
 
 ---
@@ -153,11 +163,54 @@ I work where identity governance meets real software engineering.
 
 ---
 
+### 🧊 Contributions in 3D
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/YoussefHassanDEV/YoussefHassanDev/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev quote" />
+</p>
+
+---
+
 ### 🐍 Watch the snake eat my contributions
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/YoussefHassanDEV/YoussefHassanDev/output/snake.svg" alt="Snake animation eating the contribution graph" />
 </p>
+
+---
+
+<!-- C4:START -->
+
+### 🔴 Connect Four — against a real search engine
+
+Not a toy. Bitboard position representation, **negamax with alpha-beta pruning**, a
+transposition table and centre-first move ordering, searching **9 plies**.
+It will punish a careless move.
+
+| [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-0&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-1&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-2&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-5&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) | [⬇️](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=c4-drop-6&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+
+Drop a disc with the ⬇️ arrows. You are 🔴, the engine is 🟡.
+
+🏆 You **0** · 🤖 Engine **0** · 🤝 Draws **0**
+
+<sub>How it works: the board is two 49-bit masks, and a four-in-a-row is detected by ANDing
+the position with itself shifted twice — four shift-pairs cover all 69 possible lines at once.
+[Read the engine](https://github.com/YoussefHassanDEV/YoussefHassanDev/blob/main/.github/scripts/connect4.js).</sub>
+
+<!-- C4:END -->
 
 ---
 

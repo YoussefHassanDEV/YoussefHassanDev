@@ -1,0 +1,63 @@
+name: Connect Four
+
+on:
+  issues:
+    types: [opened]
+
+# Shared with the tic-tac-toe workflow on purpose: both rewrite README.md, so letting them run
+# together would mean one pushing onto a stale checkout and failing. Serialising costs a few
+# seconds and removes the race entirely.
+concurrency:
+  group: profile-games
+  cancel-in-progress: false
+
+jobs:
+  play:
+    if: startsWith(github.event.issue.title, 'c4-drop-')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Run the engine
+        id: move
+        run: |
+          COL="${TITLE#c4-drop-}"
+          OUTPUT=$(node .github/scripts/connect4.js "$COL")
+          echo "message<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$OUTPUT" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Commit the new board
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/data/connect4.json
+          if git diff --staged --quiet; then
+            echo "board unchanged"
+          else
+            git commit -m "🔴 connect four: drop by @${PLAYER}"
+            # The other game may have pushed while the engine was thinking.
+            git pull --rebase --autostash || true
+            git push
+          fi
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+
+      - name: Reply and close
+        run: |
+          gh issue comment "$NUMBER" --body "$(printf '@%s %s\n\nBoard is on [my profile](https://github.com/%s).' "$PLAYER" "$MESSAGE" "$OWNER")"
+          gh issue close "$NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          PLAYER: ${{ github.event.issue.user.login }}
+          OWNER: ${{ github.repository_owner }}
+          MESSAGE: ${{ steps.move.outputs.message }}

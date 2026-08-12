@@ -10,7 +10,7 @@ on:
 # One game, one board — serialise so two players clicking at once can't interleave writes and
 # corrupt the state file.
 concurrency:
-  group: tictactoe
+  group: profile-games
   cancel-in-progress: false
 
 jobs:
@@ -52,6 +52,7 @@ jobs:
             echo "board unchanged"
           else
             git commit -m "🎮 tic-tac-toe: move by @${PLAYER}"
+            git pull --rebase --autostash || true
             git push
           fi
         env:

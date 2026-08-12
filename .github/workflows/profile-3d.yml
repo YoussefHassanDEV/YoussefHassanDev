@@ -1,0 +1,41 @@
+name: 3D contribution calendar
+
+# Renders the contribution history as an isometric 3D calendar and commits the SVG here.
+# Same reasoning as the snake: generated into this repo rather than fetched live, so it can't
+# break when someone else's shared Vercel instance gets rate-limited.
+on:
+  schedule:
+    - cron: '30 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: profile-3d
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Commit the rendered calendar
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A profile-3d-contrib
+          if git diff --staged --quiet; then
+            echo "calendar unchanged"
+          else
+            git commit -m "🧊 regenerate 3D contribution calendar"
+            git pull --rebase --autostash || true
+            git push
+          fi
