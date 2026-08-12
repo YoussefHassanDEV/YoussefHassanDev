@@ -199,8 +199,8 @@ It will punish a careless move.
 | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
 | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
 | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
-| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
-| ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | 🟡 | ⚫ | ⚫ | ⚫ |
+| ⚫ | ⚫ | ⚫ | 🔴 | ⚫ | ⚫ | ⚫ |
 
 Drop a disc with the ⬇️ arrows. You are 🔴, the engine is 🟡.
 
