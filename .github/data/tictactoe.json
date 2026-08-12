@@ -1,7 +1,7 @@
 {
-  "board": "-XOXO----",
+  "board": "---------",
   "wins": 0,
-  "losses": 0,
+  "losses": 1,
   "draws": 0,
-  "last": 2
+  "last": 6
 }
