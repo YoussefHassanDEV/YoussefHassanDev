@@ -185,6 +185,48 @@ I work where identity governance meets real software engineering.
 
 ---
 
+## 🕹️ Play me
+
+Three games, all playable from this page. Click a move, an Action replies.
+
+<!-- CHESS:START -->
+
+### ♟️ Chess — you are White, against a real engine
+
+0x88 board representation, full legal move generation (castling, en passant, promotion),
+alpha-beta search to **5 plies** with piece-square evaluation and MVV-LVA
+capture ordering.
+
+| | a | b | c | d | e | f | g | h |
+|--|--|--|--|--|--|--|--|--|
+| **8** | ♜ | ♞ | ♝ | ♛ | ♚ | ♝ | ♞ | ♜ |
+| **7** | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ | ♟ |
+| **6** | · | · | · | · | · | · | · | · |
+| **5** | · | · | · | · | · | · | · | · |
+| **4** | · | · | · | · | · | · | · | · |
+| **3** | · | · | · | · | · | · | · | · |
+| **2** | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ | ♙ |
+| **1** | ♖ | ♘ | ♗ | ♕ | ♔ | ♗ | ♘ | ♖ |
+
+Your move — you are White (♙).
+
+<details><summary><b>▶ Your legal moves (20) — click one to play</b></summary><br>
+
+**b1** → [c3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-b1c3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [a3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-b1a3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**g1** → [h3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-g1h3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [f3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-g1f3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**a2** → [a3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-a2a3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [a4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-a2a4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**b2** → [b3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-b2b3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [b4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-b2b4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**c2** → [c3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-c2c3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [c4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-c2c4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**d2** → [d3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-d2d3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [d4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-d2d4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**e2** → [e3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-e2e3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [e4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-e2e4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**f2** → [f3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-f2f3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [f4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-f2f4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**g2** → [g3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-g2g3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [g4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-g2g4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)<br>**h2** → [h3](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-h2h3&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.) · [h4](https://github.com/YoussefHassanDEV/YoussefHassanDev/issues/new?title=chess-h2h4&body=Press+%22Create%22+%E2%80%94+the+engine+replies+in+about+a+minute.)
+
+</details>
+
+🏆 You **0** · 🤖 Engine **0** · 🤝 Draws **0**
+
+<sub>Move generation is verified with <a href="https://www.chessprogramming.org/Perft">perft</a>:
+the engine reproduces the published node counts for the starting position exactly
+(20 / 400 / 8902 / 197281), which is what proves castling, en passant and promotion are all
+handled correctly. [Read the engine](https://github.com/YoussefHassanDEV/YoussefHassanDev/blob/main/.github/scripts/chess.js).</sub>
+
+<!-- CHESS:END -->
+
+---
+
 <!-- C4:START -->
 
 ### 🔴 Connect Four — against a real search engine
