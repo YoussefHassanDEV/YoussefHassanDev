@@ -1,0 +1,69 @@
+name: Tic-tac-toe
+
+# Someone clicked a square on the profile README, which opened an issue titled `ttt-move-<n>`.
+# Apply their move, play a reply, rewrite the board into the README, then answer and close the
+# issue so the tracker doesn't fill up.
+on:
+  issues:
+    types: [opened]
+
+# One game, one board — serialise so two players clicking at once can't interleave writes and
+# corrupt the state file.
+concurrency:
+  group: tictactoe
+  cancel-in-progress: false
+
+jobs:
+  play:
+    # Only issues that look like a move. Anything else (a real bug report, spam) is ignored and
+    # left open, rather than being closed by this workflow.
+    if: startsWith(github.event.issue.title, 'ttt-move-')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Apply the move
+        id: move
+        run: |
+          # The title is trusted only as far as this: strip the prefix and hand the rest to the
+          # script, which validates it is 0-8 and refuses anything else.
+          CELL="${TITLE#ttt-move-}"
+          OUTPUT=$(node .github/scripts/tictactoe.js "$CELL")
+          echo "message<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$OUTPUT" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+
+      - name: Commit the new board
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/data/tictactoe.json
+          # Nothing to commit is a normal outcome (an occupied square, an invalid move), not a
+          # failure — the player still gets an answer on the issue below.
+          if git diff --staged --quiet; then
+            echo "board unchanged"
+          else
+            git commit -m "🎮 tic-tac-toe: move by @${PLAYER}"
+            git push
+          fi
+        env:
+          PLAYER: ${{ github.event.issue.user.login }}
+
+      - name: Reply and close
+        run: |
+          gh issue comment "$NUMBER" --body "$(printf '@%s %s\n\nBoard is on [my profile](https://github.com/%s). Click another square to keep going.' "$PLAYER" "$MESSAGE" "$OWNER")"
+          gh issue close "$NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NUMBER: ${{ github.event.issue.number }}
+          PLAYER: ${{ github.event.issue.user.login }}
+          OWNER: ${{ github.repository_owner }}
+          MESSAGE: ${{ steps.move.outputs.message }}
